@@ -58,7 +58,7 @@ function MModal({ opened, closeModal, addCamisa }: Props) {
           </Modal.Header>
           <Modal.Body>
             <Row>
-              <Image src={image} style={{ maxWidth: "17rem", minWidth: "17rem", maxHeight: "20rem", minHeight: "20rem" }} />
+              <Image src={image} style={{ maxWidth: "15rem", maxHeight: "15rem" }} />
             </Row>
 
             <Row>

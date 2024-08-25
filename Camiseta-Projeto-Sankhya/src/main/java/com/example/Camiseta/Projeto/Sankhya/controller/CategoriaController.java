@@ -18,7 +18,7 @@ public class CategoriaController {
     @Autowired
     private CategoriaRepository categoriaRepository;
 
-    @CrossOrigin(origins = "*", allowedHeaders = "*")
+    @CrossOrigin(origins = "http://localhost:5173")
     @GetMapping
     public List<Categoria> getAllCategorias() {
         return categoriaRepository.findAll();

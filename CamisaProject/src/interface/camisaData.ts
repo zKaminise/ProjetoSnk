@@ -3,4 +3,5 @@ export interface Camisa {
   title: string;
   image: string;
   price: number;
+  categoria_id?: number;
 }

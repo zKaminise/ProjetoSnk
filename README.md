@@ -26,3 +26,10 @@ A Classe "CamisaResponseDTO foi criada apenas para armazenar os dados para melho
 Como expliquei acima o Constructor "CamisaResponseDTO" vindo da Entity "Camisa" é usando no método getAll() do Controller para converter a entidade Camisa para Data Transfer Objects(DTO) de Respontas.
 
 A Classe Record "CamiseRequestDTO" foi criada somente para Criar e Atualizar dados da tabela "Camisa", sem expor dados desnecessários do DataBase.
+
+Para o FrontEnd usei o React junto com TypeScript
+
+Foi criado um FrontEnd basico, nele utilizei "Hooks" para gerenciamentos do "useState" e "useEffects"<br>
+Usei a Biblioteca "Axios" para a comunicação com o BackEnd, através das Requisições HTTP, nesse projeto utilizei somente o "axios.get" e "axios.post" para Buscar as Informações do Banco de Dados e também inseri-las.<br>
+Para Estilizar o Projeto de maneira que fique visualmente mais atrativo ao usuario utilizei o React Bootstrap na criação do Modal e dos Cards.
+

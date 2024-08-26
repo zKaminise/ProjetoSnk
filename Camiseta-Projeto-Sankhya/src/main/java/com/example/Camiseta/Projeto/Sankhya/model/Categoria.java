@@ -2,16 +2,11 @@ package com.example.Camiseta.Projeto.Sankhya.model;
 
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+
 
 @Table(name = "categoria")
 @Entity(name = "categoria")
-@Getter
-@NoArgsConstructor
-@AllArgsConstructor
 @EqualsAndHashCode(of = "id")
 public class Categoria {
 
@@ -20,6 +15,13 @@ public class Categoria {
     private Long id;
 
     private String nome;
+
+    public Categoria() {}
+
+    public Categoria(Long id, String nome) {
+        this.id = id;
+        this.nome = nome;
+    }
 
     public Long getId() {
         return id;

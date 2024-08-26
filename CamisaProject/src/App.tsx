@@ -23,7 +23,6 @@ function App() {
       <div className="row">
         <h1 className="col-6">Camisas de Time</h1>
         <div className=" col-md-3 offset-md-3">
-          {/* <button type="button" className="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">Anunciar Camisa</button> */}
           <Button variant="primary" onClick={() => setOpened(true)}>
             Anunciar Camisa
           </Button>

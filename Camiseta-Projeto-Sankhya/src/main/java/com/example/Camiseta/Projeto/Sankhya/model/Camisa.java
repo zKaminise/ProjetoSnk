@@ -20,7 +20,6 @@ public class Camisa {
 
     public Camisa() {}
 
-    // Construtor que aceita CamisaRequestDTO e Categoria
     public Camisa(CamisaRequestDTO data, Categoria categoria) {
         this.title = data.title();
         this.image = data.image();

@@ -7,14 +7,14 @@ public class CamisaResponseDTO {
     private String title;
     private String image;
     private Integer price;
-    private Long categoria_id;  // Adiciona o campo categoriaId
+    private Long categoria_id;
 
     public CamisaResponseDTO(Camisa camisa) {
         this.id = camisa.getId();
         this.title = camisa.getTitle();
         this.image = camisa.getImage();
         this.price = camisa.getPrice();
-        this.categoria_id = camisa.getCategoria() != null ? camisa.getCategoria().getId() : null; // Adiciona o ID da categoria
+        this.categoria_id = camisa.getCategoria() != null ? camisa.getCategoria().getId() : null;
     }
 
     public Long getId() {

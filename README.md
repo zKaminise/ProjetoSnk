@@ -2,9 +2,9 @@ Desafio Sankhya Developer
 
 Criei um Sistema de Anúncio de Camisetas de Time.
 
-BackEnd foi feito em Java e Spring
-FrontEnd em React com TypeScript
-DataBase PostgreSQL
+BackEnd foi feito em Java e Spring<br>
+FrontEnd em React com TypeScript<br>
+DataBase PostgreSQL<br>
 Integração com Servidor de Aplicação WildFly 33
 
 Inicialmente criei o Banco de Dados com 2 Tabelas, sendo elas Camisa e Categoria.
